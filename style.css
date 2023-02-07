@@ -20,28 +20,30 @@ body
 {
     display: flex;
    background:#dbd9d9; 
+   flex-wrap: wrap;
 }
 
 .box
 {
   height: 100px;
   min-width: 100px;
+  flex-grow: 1;
 
 }
 .one
 {
   background: red;
-    flex-grow: 1;
 }
+  
 .two
 {
   background: rgb(39, 129, 165);
-    flex-grow: 2;
+
 }
 .three
 {
   background: green;
-    flex-grow: 3
+
 }
 
 /* responsive */
