@@ -22,16 +22,17 @@ body
    background:#dbd9d9; 
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: flex-start;
-    height :800px;
-  
+    height:600px;
+    align-items: center;
+/*    justify-content: is used in main axis and align-item in cross axis*/
+    
 }
 
 
 .box
 {
   height: 100px;
-  flex:0 0 200px;
+  flex:0 0 100px;
 }
 .one
 {
