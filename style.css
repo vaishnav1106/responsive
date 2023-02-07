@@ -20,15 +20,13 @@ body
 {
     display: flex;
    background:#dbd9d9; 
-   flex-wrap: wrap;
+  
 }
 
 .box
 {
   height: 100px;
-  min-width: 100px;
-  flex-grow: 1;
-
+  flex-basis: 500px;
 }
 .one
 {
