@@ -1,4 +1,51 @@
-nav ul
+/* css flex */
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+
+}
+body
+{
+  background-color:#eee;
+}
+
+.wrapper
+{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container
+{
+    display: flex;
+   background:#dbd9d9; 
+}
+
+.box
+{
+  height: 100px;
+  min-width: 100px;
+
+}
+.one
+{
+  background: red;
+    flex-grow: 1;
+}
+.two
+{
+  background: rgb(39, 129, 165);
+    flex-grow: 2;
+}
+.three
+{
+  background: green;
+    flex-grow: 3
+}
+
+/* responsive */
+/* nav ul
 {
   list-style-type: none;
   padding: 10px;
@@ -12,7 +59,7 @@ nav ul
 nav ul li
 {
     float: left;
-    /* display: inline-block; */
+    display: inline-block;
    
 }
 
@@ -28,7 +75,9 @@ nav ul li a
 
 /* media query */
 
-@media screen and  (max-width:768px) 
+/* tab responsive */
+
+/* @media screen and  (max-width:768px) 
 {  nav ul
     { 
       display: inline-block;
@@ -46,10 +95,37 @@ nav ul li a
   display:inline-block ;   
   float: none;
   margin: 0 10px;
-  width:21.5%;
+  width:15.5%;  
+}
+  nav ul li a
+  {
+    color:black;
+    padding:45px;
+    text-align:center;
+  }
+} */
+/* mobile responsive */
+/* @media screen and  (max-width:460px) 
+{  nav ul
+    { 
+      display: inline-block;
+      padding: 10px;
+      background-color: rgb(242, 244, 247);
+      width:100%;
+      margin-top:-8px;
+      margin-left:-8px;
+      margin-right: -8px;
+      overflow: hidden;
+    }
   
-  
-   
+    nav ul li
+{
+  display:inline-block ;   
+  float: none;
+  margin: 0 9px;
+  width:10.5%;  
+  padding:4px;
+  text-align:center;
 }
   nav ul li a
   {
@@ -58,3 +134,17 @@ nav ul li a
     text-align:center;
   }
 }
+  @media screen and  (max-width:367px) 
+  {
+    .burger
+    {
+      display: block;
+      height: 40px;
+      width:100%;
+      background: url(img/menu.png) no-repeat 98% center;
+      background-color: #f7e6e6;
+      cursor:pointer;
+       
+    }
+  }
+ */ 
